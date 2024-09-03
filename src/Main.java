@@ -1,7 +1,6 @@
 import  java.util.Scanner;
-import  java.util.Scanner;
 public class Main {
-    static Scanner scanner=new Scanner (System.in);//scanner permite  ingresar valores por consola , con esta permite crear un objeto
+    static Scanner scanner=new Scanner (System.in);//scanner permite  ingresar valores por consola,con esta permite crear un objeto
     public static void main(String[] args) {
         int opcion = 0; //se declara la variable
             do {  // se escogio proque es para  repetir un ciclo al menos una vez y que encuentra una condicion
@@ -219,12 +218,234 @@ public class Main {
                         System.out.println("      Resultado :  4                                                    ");
                         System.out.println("------------------------------------------------------------------------");
                         break;
+                    case 5:
+                        System.out.println("------------------------------------------------------------------------     ");
+                        System.out.println("5   Condicional IF, ELSE IF, ELSE                                            ");
+                        System.out.println("-----------------------------------------------------------------------------");
+                        System.out.println("5 Tipos de Condicional                                                       ");
+                        System.out.println("-----------------------------------------------------------------------------");
+                        System.out.println("501 Condicional IF     -si quieres ver la explicación digite la opcion    501");
+                        System.out.println("502 Condicional ELSE IF-si quieres ver la explicación digite la opcion    502");
+                        System.out.println("503 Condicional ELSE   -si quieres ver la explicación digite la opcion    503");
+                        System.out.println("504 PROGRAMA DE CONDICIONAL IF,ELSE IF,ELSE si quieres ejecutarlo  digite 504");
+                        System.out.println("-----------------------------------------------------------------------------");
+                        break;
+                    case 501:
+                        System.out.println("----------------------------------------------------------------------  ");
+                        System.out.println("5    Condicional  IF, ELSE IF, ELSE                                     ");
+                        System.out.println("501  Condicional   IF                                                   ");
+                        System.out.println("----------------------------------------------------------------------  ");
+                        System.out.println("     Descripcion El condicional IF se puede utilizar sin el else.       ");
+                        System.out.println("     Ejemplo  Si se solicita un programa en el que se diga ÚNICAMENTE   ");
+                        System.out.println("     si una persona tiene sobrepeso de acuerdo a su indice de masa corporal,");
+                        System.out.println("     se utilizaría el IF sin colocar la parte del else.                 ");
+                        System.out.println("     if (condición ) {     //instrucciones para el caso verdadero - IF  ");
+                        System.out.println("           Ejemplo1                                                     ");
+                        System.out.println("           int peso =20;                                                ");
+                        System.out.println("           if (peso >=18); {                                            ");
+                        System.out.println("           System.out.println(entre comillas Tu peso esentre comillas   ");
+                        System.out.println("           }                                                            ");
+                        System.out.println("------------------------------------------------------------------------");
+                        break;
+                    case 502:
+                        System.out.println("----------------------------------------------------------------------  ");
+                        System.out.println("5    Condicional  IF, ELSE IF , ELSE                                    ");
+                        System.out.println("502  Condicional    ELSE  IF                                            ");
+                        System.out.println("----------------------------------------------------------------------  ");
+                        System.out.println("     Descripcion En el condicional IF se tiene una condición central    ");
+                        System.out.println("     que arroja como resultado verdadero o falso.                       ");
+                        System.out.println("     Para cada resultado se puede realizar una acción diferente.        ");
+                        System.out.println("     Ejemplo1 if (condición ) { //instrucciones para el caso verdadero - IF");
+                        System.out.println("                 } else  {     //instrucciones para el caso falso-ELSE  ");
+                        System.out.println("                 }                                                      ");
+                        System.out.println("     Ejemplo2                                                           ");
+                        System.out.println("                int nota =12;                                           ");
+                        System.out.println("                if (nota >=30;  {                                       ");
+                        System.out.println("                System.out.println(Paso la materia)                     ");
+                        System.out.println("               }  else                                                  ");
+                        System.out.println("                System.out.println(Perdio la materia)                   ");
+                        System.out.println("               }                                                        ");
+                        System.out.println("---------------------------------------------------------------------   ");
+                        break;
+                    case 503:
+                        System.out.println("---------------------------------------------------------------------   ");
+                        System.out.println(" 5    Condicional  IF, ELSE IF , ELSE                                   ");
+                        System.out.println(" 503  Condicional  ELSE                                                 ");
+                        System.out.println("----------------------------------------------------------------------- ");
+                        System.out.println("    La cláusula else (no obligatoria) sirve para indicar instrucciones a");
+                        System.out.println("    realizar en caso de no cumplirse la condición. Java admite escribir un else");
+                        System.out.println("    y dejarlo vacío: else { }.El else vacío se interpreta como que contemplamos");
+                        System.out.println("    el caso pero no hacemos nada en respuesta a él.                     ");
+                        System.out.println("    Ejemplo  incluyendo el Else  en Un IF anidado                       ");
+                        System.out.println("    Si en una condición se requiere hacer más de una pregunta se puede  ");
+                        System.out.println("    e utilizar un IF anidado                                            ");
+                        System.out.println("      if (condición ) {                                                 ");
+                        System.out.println("             //instrucciones para el caso verdadero - IF                ");
+                        System.out.println("              } else {                                                  ");
+                        System.out.println("           if (condición ) {                                            ");
+                        System.out.println("             //instrucciones para el caso verdadero - IF                ");
+                        System.out.println("            } else {                                                    ");
+                        System.out.println("           //instrucciones para el caso falso - ELSE                    ");
+                        System.out.println("             }                                                          ");
+                        System.out.println("           }                                                            ");
+                        System.out.println("             int temperatura=39;                                        ");
+                        System.out.println("             if (temperatura<=36 ) {                                    ");
+                        System.out.println("            System.out.println(“Temperatura normal”);                   ");
+                        System.out.println("          } else {                                                      ");
+                        System.out.println("           if (temperatura>36 && temperatura<39) {                      ");
+                        System.out.println("         System.out.println(“Tenga cuidado”);                           ");
+                        System.out.println("         } else {                                                       ");
+                        System.out.println("         System.out.println(“OJO tiene fiebre”);                        ");
+                        System.out.println("          }                                                             ");
+                        System.out.println("          }                                                             ");
+                        System.out.println("----------------------------------------------------------------------  ");
+                        break;
+                    case 504:
+                        System.out.println("----------------------------------------------------------------------  ");
+                        System.out.println("504 PROGRAMA  DE  CONDICIONAL IF, ELSE IF ELSE                          ");
+                        System.out.println("----------------------------------------------------------------------  ");
+                        Scanner scannerEdad = new Scanner (System.in);
+                        System.out.println("Ingrese su edad:   ");
+                        int edad=scannerEdad.nextInt();
+                        System.out.println(edad);
+                        if (edad <= 12){
+                            System.out.println("su edad es entre 0 a 12 años eres un niño");
+                        } else if  (edad<=20){
+                            System.out.println("su edad 13 a 20 años eres un joven");
+                        } else if (edad<=60){
+                            System.out.println("su edad 21 a 60 años eres un adulto");
+                        } if (edad>61){
+                        System.out.println("su edad  es mayor a 61 eres de la tercera edad");
+                    } else {
+                    }
+                        break;
+                    case 6:
+                        System.out.println("-------------------------------------------------------------------------- ");
+                        System.out.println("601 Condicional SWITCH-- si quieres ver la explicación digite la opcion 601");
+                        System.out.println("602 PROGRAMA SWITCH   -- si quieres  ejecutarlo  digite la opcion 602      ");
+                        System.out.println("-------------------------------------------------------------------------- ");
+                        break;
+                    case 601:
+                        System.out.println("-------------------------------------------------------------------------  ");
+                        System.out.println("601  Condicional SWITCH                                                    ");
+                        System.out.println("     Descripcion Cuando se requiere comparar una variable con una serie    ");
+                        System.out.println("     valores diferentes, esta indican los posibles valores que puede tomar ");
+                        System.out.println("     la variable y las sentencias que se tienen que ejecutar sí es que la  ");
+                        System.out.println("     variable coincide con alguno de dichos valores.                       ");
+                        System.out.println("     Cada case ejecutará las sentencias correspondientes,con base en base  ");
+                        System.out.println("     en el valor de la variable,que deberá de evaluarse con valores de     ");
+                        System.out.println("     tipo byte,char,short o int                                            ");
+                        System.out.println("     Si el valor de la variable no coincide con ningún valor, entonces se  ");
+                        System.out.println("     ejecutan las sentencias por default, sí es que las hay.               ");
+                        System.out.println("     La sentencia break al final de cada case transfiere el control al final");
+                        System.out.println("     de la sentencia switch; de esta manera, cada vez que se ejecuta un    ");
+                        System.out.println("     case todos los enunciados case restantes son ignorados y termina la   ");
+                        System.out.println("     operación del switch                                                  ");
+                        System.out.println("                Ejemplo1   switch( variable ){                             ");
+                        System.out.println("                case valor1:                                               ");
+                        System.out.println("                     sentencias;                                           ");
+                        System.out.println("                break;                                                     ");
+                        System.out.println("                case valor2:                                               ");
+                        System.out.println("                     sentencias;                                           ");
+                        System.out.println("                break;                                                     ");
+                        System.out.println("                case valorN:                                               ");
+                        System.out.println("                     sentencias;                                           ");
+                        System.out.println("                break;                                                     ");
+                        System.out.println("                default;                                                   ");
+                        System.out.println("                     sentencias;                                           ");
+                        System.out.println("               }                                                           ");
+                        System.out.println("--------------------------------------------------------------------       ");
+                        break;
+                    case 602:
+                        System.out.println("-------------------------------------------------------------------------- ");
+                        System.out.println("602 PROGRAMA SWITCH                                                        ");
+                        System.out.println("-------------------------------------------------------------------------- ");
+                        Scanner scannerNota = new Scanner (System.in);
+                        System.out.println("Ingrese su Nota del 1 al 10 número entero:   ");
+                        int nota=scannerNota.nextInt();
+                        System.out.println(nota);
+
+                        switch (nota) {
+                            case 1:
+                            case 2:
+                                System.out.println("Su calificacion es: F");
+                                break;
+                            case 3:
+                            case 4:
+                                System.out.println("Su calificación es: D");
+                                break;
+                            case 5:
+                            case 6:
+                                System.out.println("Su calificación es: C");
+                                break;
+                            case 7:
+                            case 8:
+                                System.out.println("Su calificación es: B");
+                                break;
+                            case 9:
+                            case 10:
+                                System.out.println("Su calificación es: A");
+                                break;
+                            default:
+                                System.out.println("Número no valido, por favor verifique");
+                                break;
+                        }
+                        break;
+                    case 7:
+                        System.out.println("----------------------------------------------------------------------------");
+                        System.out.println("701  Condicion Ternaria -si quieres ver la explicación digite la opcion 701 ");
+                        System.out.println("702  PROGRAMA  TERNARIA -si quieres  ejecutarlo  digite la opcion 702       ");
+                        System.out.println("--------------------------------------------------------------------------- ");
+                        break;
+                    case 701:
+                        System.out.println("--------------------------------------------------------------------------- ");
+                        System.out.println("701  Condicion Ternaria                                                     ");
+                        System.out.println("--------------------------------------------------------------------------- ");
+                        System.out.println("    El operador ternario en Java es una construcción que permite tomar      ");
+                        System.out.println("    decisiones basadas en una condición booleana de manera concisa en una   ");
+                        System.out.println("    sola línea de código.                                                   ");
+                        System.out.println("    Es una forma abreviada de expresar una estructura condicional if-else   ");
+                        System.out.println("    Su estructura básica es: condición ? valor_si_verdadero : valor_si_falso;");
+                        System.out.println("    Si la condición es verdadera, se devuelve el valor correspondiente a    ");
+                        System.out.println("    entre comillas valor_si_verdadero entre comillas; de lo contrario, se   ");
+                        System.out.println("    devuelve el valor asignado a entre comillas valor_si_falso entre comillas");
+                        System.out.println("      Ejemplo  variable = ( condicion)? valor_si_verdadero : valor_si_falso; ");
+                        System.out.println("      Ejemplo1                                                              ");
+                        System.out.println("       int edad = 20;                                                        ");
+                        System.out.println("       String status =( edad  >= 18) ? entre comillas Adulto entre comillas :");
+                        System.out.println("                               Menor de edad entre comillas;                 ");
+                        System.out.println("      System.out.println(entre comillas La persona es:entre comillas + status);");
+                        System.out.println("      Ejemplo2                                                                ");
+                        System.out.println("       int  numero = 15;                                                      ");
+                        System.out.println("       String resultado =(numero % 2 == 0 ) ? entre comillas Par entre comillas:");
+                        System.out.println("                                  entre comillas Impar entre comillas;        ");
+                        System.out.println("    System.out.println(entre comillas El numero es:entre comillas + resultado);");
+                        System.out.println("------------------------------------------------------------------------------");
+                        break;
+                    case 702:
+                        System.out.println("----------------------------------------------------------------------------");
+                        System.out.println("702  PROGRAMA  TERNARIA                                                     ");
+                        System.out.println("--------------------------------------------------------------------------- ");
+                        Scanner scannerparimpar = new Scanner (System.in);
+                        System.out.println("Ingrese el numero:   ");
+                        int numerito = scannerparimpar.nextInt();
+                        String resultado =( numerito % 2 == 0 ? " un numero par" : " un numero impar");
+                        System.out.print("El numero     " + numerito  + " es " + resultado);
+                        break;
                     case 0:
                         break;
-
                 }
 
             }while (opcion !=0);//  si ya no se cumple  la condicion se detiene  por eso se coloca cero
+            System.out.println ("  ****************************************** ");
+            System.out.println ("  *                                        * ");
+            System.out.println ("  *                                        * ");
+            System.out.println ("  *   USTED HA SALIDO DEL MENÚ PRINCIPAL   * ");
+            System.out.println ("  *        GRACIAS POR SU VISITA           * ");
+            System.out.println ("  *                                        * ");
+            System.out.println ("  *                                        * ");
+            System.out.println ("  *               --*--                    * ");
+            System.out.println ("  ****************************************** ");
 
 
     }
