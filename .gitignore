@@ -1,5 +1,9 @@
 ### IntelliJ IDEA ###
 out/
+<<<<<<< HEAD
+=======
+.idea/
+>>>>>>> 17577757c6beb091cb4b3d00ff5e61ef3de225a6
 !**/src/main/**/out/
 !**/src/test/**/out/
 
