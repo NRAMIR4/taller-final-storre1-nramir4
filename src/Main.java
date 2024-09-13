@@ -477,14 +477,13 @@ public class Main {
                     System.out.println("Ingrese su edad:   ");
                     int edad = scannerEdad.nextInt();
                     System.out.println(edad);
-                    if (edad <= 12) {
+                    if (edad <= 12){
                         System.out.println("su edad es entre 0 a 12 años eres un niño");
-                    } else if (edad <= 20) {
+                    } else if (edad <= 20){
                         System.out.println("su edad 13 a 20 años eres un joven");
-                    } else if (edad <= 60) {
+                    } else if (edad <= 60){
                         System.out.println("su edad 21 a 60 años eres un adulto");
-                    }
-                    if (edad > 61) {
+                    }if(edad >= 61){
                         System.out.println("su edad  es mayor a 61 eres de la tercera edad");
                     } else{
                     }
@@ -762,7 +761,13 @@ public class Main {
                     break;
                 case 0:
                     break;
-
+                default:
+                    System.out.println (" ********************************************************************");
+                    System.out.println (" *                                                                  *");
+                    System.out.println (" *             HA SELECCIONADO UNA OPCIÓN INVALIDA,                 *");
+                    System.out.println (" *                INGRESE NUEVAMENTE UNA OPCIÓN                     *");
+                    System.out.println (" *                                                                  *");
+                    System.out.println (" ********************************************************************");
             }
 
         } while (opcion != 0);//  si ya no se cumple  la condicion se detiene  por eso se coloca cero
